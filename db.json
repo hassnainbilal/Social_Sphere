@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "thehasnainn@gmail.com",
+      "email": "thehasnainn@gmail.com",
+      "password": "$2a$10$kylYI3Al/TAJSJbff9oYteXYglHMpZr4M4ZD94yxYkMPxA1fkqwqy",
+      "bio": "Introvert",
+      "avatar": "T",
+      "createdAt": "2026-09-17T01:24:29.509Z"
+    },
+    {
+      "id": 2,
+      "username": "Hassnain",
+      "email": "thehasnainnn@gmail.com",
+      "password": "$2a$10$GZn.g5wIqoMHM2Z5zXXGxeG2ThW1UGKeO2SLYCETZUowni7v9wPjO",
+      "bio": "Introvert",
+      "avatar": "H",
+      "createdAt": "2026-09-17T01:26:26.510Z"
+    },
+    {
+      "id": 3,
+      "username": "Hassnain Bilal",
+      "email": "hassnainbilal2626@gmail.com",
+      "password": "$2a$10$OYFGsEDfpZJ/Ob2oazxZHuY9/kcLy1x/QR7Vj5XGaV4dsVkxFtT0e",
+      "bio": "Introvert",
+      "avatar": "H",
+      "createdAt": "2026-09-17T01:33:11.916Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 3,
+      "content": "Beautiful sunset view! 🌅",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "likes": [
+        3
+      ],
+      "createdAt": "2026-09-17T01:37:49.088Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "content": "Just got my new MacBook! The performance is insane. 💻✨",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "likes": [],
+      "createdAt": "2026-09-17T01:42:42.781Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 3,
+      "text": "Mashallah",
+      "createdAt": "2026-09-17T01:38:03.139Z"
+    }
+  ],
+  "follows": [
+    {
+      "followerId": 2,
+      "followingId": 1
+    },
+    {
+      "followerId": 1,
+      "followingId": 2
+    },
+    {
+      "followerId": 1,
+      "followingId": 3
+    }
+  ]
+}
